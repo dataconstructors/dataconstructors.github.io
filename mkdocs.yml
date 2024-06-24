@@ -1,0 +1,5 @@
+site_name: DataConstructors
+copyright: © 2024 DataConstructors. All rights reserved.
+theme:
+  name: terminal
+  custom_dir: overrides

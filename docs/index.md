@@ -1,16 +1,16 @@
-# DataConstructors
+# Welcome to Data Constructors' Website
 
-Welcome!! We are a growing startup and your technical partner in data analysis,
-software development, and formal verification. We conduct cutting-edge research
-for our own projects and offer the same expertise to clients. No technological
-hurdle is too high; we adapt and employ the most advanced and efficient
-toolchains to tackle your challenges.
+We are a new startup and your technical partner in data analysis, software
+development, and formal verification. We conduct cutting-edge research for our
+own projects and offer the same expertise to clients. No technological hurdle is
+too high; we adapt and employ the most advanced and efficient toolchains to
+tackle your challenges.
 
-### Data Analysis
+# Data Analysis
 
 Uncover invaluable insights from your data to drive decisive decision-making.
 
-### Software 
+### Software Development
 
 Forge rock-solid, scalable, and reliable software solutions customized to
 your requirements.
@@ -20,7 +20,7 @@ your requirements.
 Guarantee the accuracy and dependability of your systems through rigorous
 verification processes.
 
-## Why Choose Us?
+## Why to work with us?
 
 - Expert Team: Our professionals possess a strong academic backgrounds and
   extensive practical experience.

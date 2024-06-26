@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dataconstructors-github-io"
+version = "0.1.0"
+description = "web page for dataconstructors"
+authors = ["qleoz12 <kintaroloop@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dataconstructors"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.6.0"
+mkdocs-terminal = "^4.4.0"
+mkdocs-git-revision-date-plugin = "^0.3.2"
+mkdocs-macros-plugin = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

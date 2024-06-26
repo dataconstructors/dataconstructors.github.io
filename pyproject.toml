@@ -2,7 +2,7 @@
 name = "dataconstructors-github-io"
 version = "0.1.0"
 description = "web page for dataconstructors"
-authors = ["qleoz12 <kintaroloop@gmail.com>"]
+authors = ["DataConstructors <info@dataconstructors.net>"]
 readme = "README.md"
 packages = [{include = "dataconstructors"}]
 

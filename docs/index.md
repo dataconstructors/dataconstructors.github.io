@@ -1,30 +1,43 @@
 # Welcome to Data Constructors' Website
 
-> The purpose of abstraction is not to be vague but to create a new semantic
-> level in which one can be absolutely precise. Edsger Dikstra.
 
-We are a startup of researchers and engineers specializing in abstraction,
-precision, and development. We conduct cutting-edge research for our projects
-and offer expertise to clients as technical partners in data analysis, software
-development, and formal verification. We overcome any technological challenge by
-adapting and employing the most advanced and efficient toolchains.
+We are a consulting team of researchers and engineers specializing in data
+analysis, software development, and formal verification.
 
-# Data Analysis
+Our commitment lies in developing cutting-edge solutions for both our own
+projects and our clients. We are passionate about technology and continuously
+seek new challenges and opportunities to apply our expertise.
 
-Uncover invaluable insights from your data to drive decisive decision-making.
+Technologies we are familiar with or willing to try soon:
 
-### Software Development
+- **Data Analysis:** 
+  - Familiar with: [Python](https://www.python.org/),
+    [NumPy](https://numpy.org/), [SciPy](https://www.scipy.org/),
+    [Pandas](https://pandas.pydata.org/), and other known libraries.
+  - Willing to try: [Julia](https://julialang.org/), or more performant
+    Python-like languages such as [Taichi](https://taichi.graphics/) and
+    [Mojo](https://www.modular.com/mojo).
 
-Forge rock-solid, scalable, and reliable software solutions customized to
-your requirements.
+- **Software Development:**
 
-### Formal Verification
+  - Familiar with: Mainstream languages such as
+    [Python](https://www.python.org/) or
+    [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    ([TypeScript](https://www.typescriptlang.org/)).
+  - Happy to work with: Functional programming languages such as
+    [Haskell](https://www.haskell.org/) and [OCaml](https://ocaml.org/).
+  - Willing to try: [Elixir](https://elixir-lang.org/).
 
-> Everything is vague to a degree you do not realise till you have tried to make
-> it precise. Bertrand Rusell.
+- **Formal Verification:**
 
-Guarantee the accuracy and dependability of your systems through rigorous
-verification processes.
+  - Using proof assistants such as
+    [Agda](https://wiki.portal.chalmers.se/agda/pmwiki.php),
+    [Lean](https://leanprover.github.io/), or
+    [Isabelle/HOL](https://isabelle.in.tum.de/).
+
+The tool we use depends on the project's requirements and the team's expertise.
+However, we are always open to learning new technologies and methodologies, if
+necessary.
 
 ## Why to work with us?
 

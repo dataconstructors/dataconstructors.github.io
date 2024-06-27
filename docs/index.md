@@ -10,15 +10,18 @@ seek new challenges and opportunities to apply our expertise.
 
 Technologies we are familiar with or willing to try soon:
 
-- **Data Analysis:** 
+**Data Analysis:**
+
   - Familiar with: [Python](https://www.python.org/),
     [NumPy](https://numpy.org/), [SciPy](https://www.scipy.org/),
     [Pandas](https://pandas.pydata.org/), and other known libraries.
+    [R Studio](https://rstudio.com/).
+
   - Willing to try: [Julia](https://julialang.org/), or more performant
     Python-like languages such as [Taichi](https://taichi.graphics/) and
     [Mojo](https://www.modular.com/mojo).
 
-- **Software Development:**
+**Software Development:**
 
   - Familiar with: Mainstream languages such as
     [Python](https://www.python.org/) or
@@ -26,9 +29,10 @@ Technologies we are familiar with or willing to try soon:
     ([TypeScript](https://www.typescriptlang.org/)).
   - Happy to work with: Functional programming languages such as
     [Haskell](https://www.haskell.org/) and [OCaml](https://ocaml.org/).
-  - Willing to try: [Elixir](https://elixir-lang.org/).
+  - Willing to try: [Elixir](https://elixir-lang.org/), [C](https://en.wikipedia.org/wiki/C_(programming_language)),
+    or [Rust](https://www.rust-lang.org/).
 
-- **Formal Verification:**
+**Formal Verification:**
 
   - Using proof assistants such as
     [Agda](https://wiki.portal.chalmers.se/agda/pmwiki.php),
@@ -43,10 +47,8 @@ necessary.
 
 - Expert Team: Our professionals possess a strong academic backgrounds and
   extensive practical experience.
-
 - Adaptive Solutions: We tailor our approach to address every
   challenge with precision and creativity.
-
 - Trailblazing Mindset: We constantly seek new ventures and thrilling projects.
 
 

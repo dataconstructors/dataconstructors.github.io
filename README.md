@@ -1,4 +1,4 @@
-# DataConstructors Website
+# DataConstructors Website [![Deploy MkDocs](https://github.com/dataconstructors/dataconstructors.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/dataconstructors/dataconstructors.github.io/actions/workflows/deploy.yml)
 
 ## Getting Started
 

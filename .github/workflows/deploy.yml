@@ -40,8 +40,5 @@ jobs:
       - name: Build MkDocs site
         run: poetry run mkdocs build
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+      # - name: Deploy to GitHub Pages
+      - run: mkdocs gh-deploy --force

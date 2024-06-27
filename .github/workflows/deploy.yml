@@ -40,7 +40,8 @@ jobs:
       - name: Build MkDocs site
         run: poetry run mkdocs build
 
-      - name: 🚀 Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-         folder: site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site

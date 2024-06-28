@@ -36,7 +36,7 @@ Technologies we are familiar with or willing to try soon:
 
   - Using proof assistants such as
     [Agda](https://wiki.portal.chalmers.se/agda/pmwiki.php),
-    [Lean](https://leanprover.github.io/), or
+    [Lean](https://leanprover.github.io/),               or
     [Isabelle/HOL](https://isabelle.in.tum.de/).
 
 The tool we use depends on the project's requirements and the team's expertise.

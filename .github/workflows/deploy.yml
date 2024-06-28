@@ -43,7 +43,7 @@ jobs:
       - name: pre-commit
         uses: pre-commit/action@v3.0.0
         with:
-          extra_args: --color=always
+          extra_args: --color=always --all-files --show-diff-on-failure
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

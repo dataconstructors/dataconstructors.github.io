@@ -3,23 +3,32 @@ copyright: © 2024 DataConstructors. All rights reserved.
 repo_url: https://github.com/dataconstructors.github.io
 edit_uri: edit/main/docs/
 
-
-
-
-
-
-
-
-
 nav:
-  - Home: index.md
-  - Team: team.md
+  - langs:
+      es: "/es"
+      en: "/#"
+  - Home: index.en.md
+  - Team: team.en.md
   - Contact: contact.md
+
 
 plugins:
 - search
 - git-revision-date
 - macros
+- i18n:
+    default_language: en
+    docs_structure: suffix
+    reconfigure_search: true
+    languages:
+      - locale: en
+        default: true
+        name: English
+        build: true
+      - locale: es
+        name: español
+        build: true
+
 
 theme:
   name: terminal

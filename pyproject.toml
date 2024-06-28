@@ -12,6 +12,7 @@ mkdocs-terminal = "^4.4.0"
 mkdocs-git-revision-date-plugin = "^0.3.2"
 mkdocs-macros-plugin = "^1.0.5"
 pre-commit = "^3.7.1"
+mkdocs-static-i18n = "^1.2.3"
 
 
 [build-system]

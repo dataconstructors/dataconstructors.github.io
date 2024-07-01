@@ -42,7 +42,7 @@ jobs:
 
        # lint pre-commit
       - name: lint pre-commit
-        uses: pre-commit/action@v3.0.0
+      - uses: pre-commit/action@v3.0.0
         run: |
           pre-commit run --all-files
         continue-on-error: true

@@ -6,7 +6,7 @@ analysis, software development, and formal verification.
 
 Our commitment lies in developing cutting-edge solutions for both our own
 projects and our clients. We are passionate about technology and continuously
-seek new challenges and opportunities to apply our expertise.                                    
+seek new challenges and opportunities to apply our expertise.
 
 
 Technologies we are familiar with or willing to try soon:

@@ -80,4 +80,3 @@ the PR is merged.
 
     This command will build the website and push the changes to the `gh-pages`
     branch of the repository.
-

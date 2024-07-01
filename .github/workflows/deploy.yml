@@ -15,10 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
       actions: read
+      pull-requests: write
+      issues: write
+      repository-projects: write
 
     steps:
       - name: Checkout repository
@@ -37,13 +40,29 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
+      - name: Run pre-commit checks
+        uses: pre-commit/action@v3.0.0
+        id: pre-commit
+        with:
+          extra_args: --all-files --show-diff-on-failure
+        continue-on-error: true
+
+      - name: Check for pre-commit changes
+        id: git_diff
+        run: |
+          git diff --exit-code ||  echo "NEED=true" >> "$GITHUB_ENV"
+
+      - name: Commit changes
+        if: env.NEED == 'true'
+        run: |
+          git config --global user.name 'qleoz12'
+          git config --global user.email 'kintaroloop@gmail.com'
+          git add .
+          git commit -m "Fix issues detected by pre-commit"
+          git push origin HEAD:${{ github.ref }}
+
       - name: Build MkDocs site
         run: poetry run mkdocs build
-
-      - name: pre-commit
-        uses: pre-commit/action@v3.0.0
-        with:
-          extra_args: --color=always --all-files --show-diff-on-failure
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -52,7 +71,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-
   deploy:
     name: Deploy
     runs-on: ubuntu-latest

@@ -47,10 +47,10 @@ jobs:
       - name: Check for pre-commit changes
         id: git_diff
         run: |
-          git diff --exit-code || echo "::set-output name=changes::true"
+          git diff --exit-code ||  echo "NEED=true" >> "$GITHUB_ENV"
 
       - name: Commit changes
-        if: steps.check_changes.outputs.changes == 'true'
+        if: env.NEED == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'

@@ -37,18 +37,28 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
+      - name: Run pre-commit checks
+        uses: pre-commit/action@v3.0.0
+        id: pre-commit
+        with:
+          extra_args: --all-files --show-diff-on-failure
+
+      - name: Check for pre-commit changes
+        id: git_diff
+        run: |
+          git diff --exit-code || echo "Changes detected"
+
+      - name: Commit changes
+        if: steps.git_diff.outputs.changes != ''
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Fix issues detected by pre-commit"
+          git push origin HEAD:${{ github.ref }}
+
       - name: Build MkDocs site
         run: poetry run mkdocs build
-
-       # lint pre-commit
-      - name: lint pre-commit
-        run: |
-          pre-commit run --all-files
-        continue-on-error: true
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply lint fixes
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -57,7 +67,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-
   deploy:
     name: Deploy
     runs-on: ubuntu-latest

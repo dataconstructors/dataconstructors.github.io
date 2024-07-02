@@ -7,48 +7,47 @@ Nuestro compromiso radica en desarrollar soluciones punteras tanto para nuestro 
 proyectos y nuestros clientes. Nos apasiona la tecnología y continuamente
 buscar nuevos desafíos y oportunidades para aplicar nuestra experiencia.
 
-Technologies we are familiar with or willing to try soon:
+Tecnologías con las que estamos familiarizados o dispuestos a probar pronto:
 
-**Data Analysis:**
+**Análisis de Datos:**
 
-  - Familiar with: [Python](https://www.python.org/),
+  - Familiarizados con: [Python](https://www.python.org/),
     [NumPy](https://numpy.org/), [SciPy](https://www.scipy.org/),
-    [Pandas](https://pandas.pydata.org/), and other known libraries.
+    [Pandas](https://pandas.pydata.org/), y otras bibliotecas conocidas,
     [R Studio](https://rstudio.com/).
 
-  - Willing to try: [Julia](https://julialang.org/), or more performant
-    Python-like languages such as [Taichi](https://taichi.graphics/) and
+  - Dispuestos a probar:: [Julia](https://julialang.org/), u otros lenguajes de alto rendimiento
+    Python como  [Taichi](https://taichi.graphics/) y
     [Mojo](https://www.modular.com/mojo).
 
-**Software Development:**
+**Desarrollo de Software:**
 
-  - Familiar with: Mainstream languages such as
+  - Familiarizados con: Lenguajes de uso común como
     [Python](https://www.python.org/) or
     [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-    ([TypeScript](https://www.typescriptlang.org/)).
-  - Happy to work with: Functional programming languages such as
+ ([TypeScript](https://www.typescriptlang.org/)).
+  - Encantados de trabajar con: Lenguajes de programación funcional como
     [Haskell](https://www.haskell.org/) and [OCaml](https://ocaml.org/).
-  - Willing to try: [Elixir](https://elixir-lang.org/), [C](https://en.wikipedia.org/wiki/C_(programming_language)),
+  - Dispuestos a probar: [Elixir](https://elixir-lang.org/), [C](https://en.wikipedia.org/wiki/C_(programming_language)),
     or [Rust](https://www.rust-lang.org/).
 
-**Formal Verification:**
+**Verificación Formal:**
 
-  - Using proof assistants such as
+  - Usando asistentes de pruebas como
     [Agda](https://wiki.portal.chalmers.se/agda/pmwiki.php),
     [Lean](https://leanprover.github.io/),               or
     [Isabelle/HOL](https://isabelle.in.tum.de/).
 
-The tool we use depends on the project's requirements and the team's expertise.
-However, we are always open to learning new technologies and methodologies, if
-necessary.
+La herramienta que utilizamos depende de los requisitos del proyecto y de la experiencia del equipo.
+Sin embargo, siempre estamos abiertos a aprender nuevas tecnologías y metodologías, si es necesario.
 
-## Why to work with us?
+## ¿Por qué trabajar con nosotros?
 
-- Expert Team: Our professionals possess a strong academic backgrounds and
-  extensive practical experience.
-- Adaptive Solutions: We tailor our approach to address every
-  challenge with precision and creativity.
-- Trailblazing Mindset: We constantly seek new ventures and thrilling projects.
+- Equipo Experto: Nuestros profesionales poseen una sólida formación académica y
+  una amplia experiencia práctica.
+- Soluciones Adaptativas: Adaptamos nuestro enfoque para abordar cada desafío con precisión y creatividad.
+- Mentalidad Innovadora: Constantemente buscamos nuevas oportunidades y proyectos emocionantes.
 
 
-Let's create something extraordinary together!
+
+¡Creemos algo extraordinario juntos!

@@ -7,9 +7,10 @@ nav:
   - langs:
       es: "/es"
       en: "/#"
-  - Home: index.en.md
-  - Team: team.en.md
+  - Home: index.md
+  - Team: team.md
   - Contact: contact.md
+  - Projects: projects/index.md
 
 
 plugins:

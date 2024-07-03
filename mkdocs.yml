@@ -2,7 +2,6 @@ site_name: DataConstructors
 copyright: © 2024 DataConstructors. All rights reserved.
 repo_url: https://github.com/dataconstructors.github.io
 edit_uri: edit/main/docs/
-
 nav:
   - langs:
       es: "/es"
@@ -11,7 +10,6 @@ nav:
   - Team: team.md
   - Contact: contact.md
   - Projects: projects/index.md
-
 
 plugins:
 - search

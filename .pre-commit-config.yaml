@@ -1,17 +1,21 @@
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.1.0
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
     hooks:
-    -   id: check-yaml
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
--   repo: https://github.com/psf/black
-    rev: 22.10.0
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
     hooks:
-    -   id: black
--   repo: https://github.com/jumanjihouse/pre-commit-hooks
+      - id: black
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 3.0.0
     hooks:
-    - id: forbid-binary
+      - id: forbid-binary
     name: forbid binary files
     exclude: docs/assets/|docs/overrides/
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.10.0
+    hooks:
+      - id: yamlfmt

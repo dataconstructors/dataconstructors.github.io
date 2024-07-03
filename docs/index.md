@@ -8,6 +8,7 @@ Our commitment lies in developing cutting-edge solutions for both our own
 projects and our clients. We are passionate about technology and continuously
 seek new challenges and opportunities to apply our expertise.
 
+
 Technologies we are familiar with or willing to try soon:
 
 **Data Analysis:**
@@ -36,7 +37,7 @@ Technologies we are familiar with or willing to try soon:
 
   - Using proof assistants such as
     [Agda](https://wiki.portal.chalmers.se/agda/pmwiki.php),
-    [Lean](https://leanprover.github.io/), or
+    [Lean](https://leanprover.github.io/),               or
     [Isabelle/HOL](https://isabelle.in.tum.de/).
 
 The tool we use depends on the project's requirements and the team's expertise.

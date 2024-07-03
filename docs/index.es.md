@@ -16,14 +16,13 @@ Tecnologías con las que estamos familiarizados o dispuestos a probar pronto:
     [Pandas](https://pandas.pydata.org/), y otras bibliotecas conocidas,
     [R Studio](https://rstudio.com/).
 
-  - Dispuestos a probar:: [Julia](https://julialang.org/), u otros lenguajes de alto rendimiento
-    Python como  [Taichi](https://taichi.graphics/) y
+  - Dispuestos a probar: [Julia](https://julialang.org/), u otros lenguajes de alto rendimiento como [Taichi](https://taichi.graphics/) y
     [Mojo](https://www.modular.com/mojo).
 
 **Desarrollo de Software:**
 
   - Familiarizados con: Lenguajes de uso común como
-    [Python](https://www.python.org/) or
+    [Python](https://www.python.org/) o
     [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
  ([TypeScript](https://www.typescriptlang.org/)).
   - Encantados de trabajar con: Lenguajes de programación funcional como
@@ -35,7 +34,7 @@ Tecnologías con las que estamos familiarizados o dispuestos a probar pronto:
 
   - Usando asistentes de pruebas como
     [Agda](https://wiki.portal.chalmers.se/agda/pmwiki.php),
-    [Lean](https://leanprover.github.io/),               or
+    [Lean](https://leanprover.github.io/),               o
     [Isabelle/HOL](https://isabelle.in.tum.de/).
 
 La herramienta que utilizamos depende de los requisitos del proyecto y de la experiencia del equipo.

@@ -63,7 +63,7 @@ jobs:
           git config --global user.email 'kintaroloop@gmail.com'
           git add .
           git commit -m "Fix issues detected by pre-commit"
-          git push origin HEAD:${{ github.ref }}
+          git push origin
 
       - name: Build MkDocs site
         run: poetry run mkdocs build

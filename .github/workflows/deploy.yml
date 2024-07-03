@@ -41,6 +41,9 @@ jobs:
           git add .
           git commit -m "Fix issues detected by pre-commit"
           git push
+      - name: stop on porpuse
+        if: env.NEED == 'true'
+        run: exit 1
   build:
     runs-on: ubuntu-latest
     needs: pre-commit

@@ -321,6 +321,23 @@ termcolor = "*"
 test = ["mkdocs-include-markdown-plugin", "mkdocs-macros-test", "mkdocs-material (>=6.2)"]
 
 [[package]]
+name = "mkdocs-static-i18n"
+version = "1.2.3"
+description = "MkDocs i18n plugin using static translation markdown files"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "mkdocs_static_i18n-1.2.3-py3-none-any.whl", hash = "sha256:e6f2f3c53b657d7632015b32dea3c64d0b80a7a8d6cde0334ca8f66f9e33b52f"},
+    {file = "mkdocs_static_i18n-1.2.3.tar.gz", hash = "sha256:7ccf4da6dd29570ec49cd863ebff6fef9cb82dbb1cb85249bdf744e8d839c914"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.5.2"
+
+[package.extras]
+material = ["mkdocs-material (>=9.2.5)"]
+
+[[package]]
 name = "mkdocs-terminal"
 version = "4.4.0"
 description = "Terminal.css theme for MkDocs"
@@ -628,4 +645,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4679ad2b94160b683c54d9c1dcce562bec4a7e9121f19d1ba621f6580c9bef92"
+content-hash = "9b2580b7f623c53eadb9c5f5f9ac44d45e61d0f53e85e8b935f6beb0db99a0a8"

@@ -52,8 +52,8 @@ jobs:
       - name: Commit changes
         if: env.NEED == 'true'
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'qleoz12'
+          git config --global user.email 'kintaroloop@gmail.com'
           git add .
           git commit -m "Fix issues detected by pre-commit"
           git push origin HEAD:${{ github.ref }}

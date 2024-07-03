@@ -10,25 +10,22 @@ nav:
   - Team: team.md
   - Contact: contact.md
   - Projects: projects/index.md
-
 plugins:
-- search
-- git-revision-date
-- macros
-- i18n:
-    default_language: en
-    docs_structure: suffix
-    reconfigure_search: true
-    languages:
-      - locale: en
-        default: true
-        name: English
-        build: true
-      - locale: es
-        name: español
-        build: true
-
-
+  - search
+  - git-revision-date
+  - macros
+  - i18n:
+      default_language: en
+      docs_structure: suffix
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: español
+          build: true
 theme:
   name: terminal
   pallete: dark

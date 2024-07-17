@@ -9,7 +9,7 @@ nav:
   - Home: index.md
   - Team: team.md
   - Contact: contact.md
-  # - Projects: projects/index.md
+    # - Projects: projects/index.md
 plugins:
   - search
   - git-revision-date
